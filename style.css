@@ -327,6 +327,30 @@ footer {
     opacity: 0.7;
 }
 
+.tools-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    border-radius: 18px;
+    padding: 32px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.tool-img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    background: transparent;
+    border-radius: 8px;
+    transition: transform 0.2s;
+}
+
+.tool-img:hover {
+    transform: scale(1.08);
+}
+
 @media (max-width: 1200px) {
     .top-bar {
         padding: 0 20px;
