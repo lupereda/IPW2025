@@ -439,3 +439,2840 @@ footer {
     margin-bottom: 16px;
     padding-left: 0;
 }
+* Hero de About Me */
+#about-hero {
+    background: linear-gradient(135deg, #f8f8f8 0%, #ffffff 100%);
+    padding: 6rem 2rem 4rem;
+    text-align: center;
+}
+
+#about-hero h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+/* Contenido detallado About Me */
+#about-detailed {
+    padding: 4rem 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.about-content-grid {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 3rem;
+    align-items: start;
+    margin-top: 2rem;
+}
+
+.about-image-large img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.about-text-detailed p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+    color: #666;
+}
+.about-with-image {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    gap: 3rem;
+    align-items: start;
+    max-width: 1200px;
+    margin: 2rem auto;
+}
+
+.about-image-home img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.about-text-home p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #666;
+    margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+    .about-with-image {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    
+    .about-image-home {
+        max-width: 300px;
+        margin: 0 auto;
+    }
+}
+/* Filosofía */
+#philosophy {
+    background-color: #f8f8f8;
+    padding: 4rem 2rem;
+}
+
+#philosophy h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.philosophy-content {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.philosophy-content blockquote {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+    font-style: italic;
+    text-align: center;
+    margin: 2rem 0;
+    padding: 2rem;
+    border-left: 4px solid #1a1a1a;
+    background-color: #fff;
+}
+
+.philosophy-list {
+    list-style: none;
+    padding: 0;
+}
+
+.philosophy-list li {
+    padding: 1rem 0;
+    border-bottom: 1px solid #ccc;
+    font-size: 1.1rem;
+}
+
+/* Habilidades Clave */
+#key-skills {
+    padding: 4rem 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#key-skills h2 {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.skill-card {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.skill-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.skill-icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.skill-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.skill-card p {
+    color: #666;
+    line-height: 1.6;
+}
+
+/* Beyond Work */
+#beyond-work {
+    background-color: #f8f8f8;
+    padding: 4rem 2rem;
+}
+
+#beyond-work h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.beyond-content {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.beyond-content p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+    color: #666;
+}
+
+/* Timeline de Educación */
+#education {
+    padding: 4rem 2rem;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+#education h2 {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.timeline {
+    position: relative;
+    padding-left: 3rem;
+}
+
+.timeline::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background-color: #1a1a1a;
+}
+
+.timeline-item {
+    position: relative;
+    margin-bottom: 2rem;
+    padding-left: 2rem;
+}
+
+.timeline-item::before {
+    content: '';
+    position: absolute;
+    left: -3.5rem;
+    top: 0.5rem;
+    width: 12px;
+    height: 12px;
+    background-color: #1a1a1a;
+    border-radius: 50%;
+}
+
+.timeline-year {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 0.5rem;
+}
+
+.timeline-content h3 {
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+}
+
+.timeline-content p {
+    color: #666;
+    font-size: 1rem;
+}
+
+/* Stats / Números */
+#stats {
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 4rem 2rem;
+}
+
+#stats h2 {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.stat-box {
+    text-align: center;
+    padding: 2rem;
+}
+
+.stat-number {
+    font-family: 'Oswald', sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 0.5rem;
+}
+
+.stat-label {
+    font-size: 1rem;
+    color: #ccc;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+/* CTA About */
+#cta-about {
+    padding: 4rem 2rem;
+    text-align: center;
+    background-color: #f8f8f8;
+}
+
+#cta-about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+#cta-about p {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 2rem;
+}
+
+/* Responsive para About Me */
+@media screen and (max-width: 768px) {
+    .about-content-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    #about-hero h1 {
+        font-size: 2.5rem;
+    }
+    
+    .skills-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .stats-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .timeline {
+        padding-left: 2rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .stats-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+#projects-hero {
+  
+    padding: 6rem 2rem 4rem;
+    text-align: center;
+}
+
+#projects-hero h1 {
+    color: #1a1a1a;
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+#projects-hero .hero-subtitle {
+    color: #666;
+}
+
+/* Filtros de Proyectos */
+#projects-filter {
+    padding: 2rem;
+    text-align: center;
+    position: sticky;
+    top: 4.5rem;
+    z-index: 100;
+}
+
+.filter-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.filter-btn {
+    padding: 0.75rem 1.5rem;
+    font-family: 'Oswald', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    background-color: #fff;
+    color: #1a1a1a;
+    border: 2px solid #1a1a1a;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.filter-btn:hover {
+    background-color: #1a1a1a;
+    color: #fff;
+}
+
+.filter-btn.active {
+    background-color: #1a1a1a;
+    color: #fff;
+}
+
+/* Grid de Proyectos */
+#projects-grid {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 4rem 2rem;
+}
+
+.project-card {
+    background-color: #fff;
+    margin-bottom: 4rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.project-card:hover {
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+    transform: translateY(-5px);
+}
+
+.project-image {
+    position: relative;
+    overflow: hidden;
+    height: 400px;
+}
+
+.project-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.project-card:hover .project-image img {
+    transform: scale(1.05);
+}
+
+.project-overlay {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
+.project-tag {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #1a1a1a;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    border-radius: 4px;
+}
+
+.project-content {
+    padding: 2rem;
+}
+
+.project-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.project-subtitle {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 1.5rem;
+    font-style: italic;
+}
+
+.project-description {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #666;
+    margin-bottom: 2rem;
+}
+
+.project-highlights {
+    background-color: #f8f8f8;
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+}
+
+.project-highlights h3 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+.project-highlights ul {
+    list-style: none;
+    padding: 0;
+}
+
+.project-highlights li {
+    padding: 0.5rem 0;
+    padding-left: 1.5rem;
+    position: relative;
+    color: #666;
+}
+
+.project-highlights li::before {
+    content: '✓';
+    position: absolute;
+    left: 0;
+    color: #1a1a1a;
+    font-weight: 700;
+}
+
+.project-details {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+}
+
+.detail-item {
+    font-size: 1rem;
+}
+
+.detail-item strong {
+    display: block;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    letter-spacing: 0.05em;
+    margin-bottom: 0.25rem;
+}
+
+.project-tech {
+    margin-bottom: 2rem;
+}
+
+.project-tech h3 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+.tech-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.tech-tag {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #1a1a1a;
+    color: #fff;
+    font-size: 0.85rem;
+    border-radius: 20px;
+}
+
+.project-role {
+    border-top: 2px solid #e0e0e0;
+    padding-top: 1.5rem;
+}
+
+.project-role h3 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+.project-role p {
+    font-size: 1.05rem;
+    line-height: 1.8;
+    color: #666;
+}
+
+/* CTA Proyectos */
+#cta-projects {
+    padding: 4rem 2rem;
+    text-align: center;
+    background: linear-gradient(135deg, #1a1a1a 0%, #2a2a2a 100%);
+    color: #fff;
+}
+
+#cta-projects h2 {
+    color: #fff;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+#cta-projects p {
+    font-size: 1.2rem;
+    color: #ccc;
+    margin-bottom: 2rem;
+}
+
+/* Responsive para Proyectos */
+@media screen and (max-width: 768px) {
+    #projects-hero h1 {
+        font-size: 2.5rem;
+    }
+    
+    .filter-container {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    
+    .filter-btn {
+        width: 100%;
+    }
+    
+    .project-image {
+        height: 250px;
+    }
+    
+    .project-content {
+        padding: 1.5rem;
+    }
+    
+    .project-content h2 {
+        font-size: 2rem;
+    }
+    
+    .project-details {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* 
+   ESTILOS PARA PÁGINA SERVICIOS
+ */
+
+/* Hero de Servicios */
+#services-hero {
+    padding: 6rem 2rem 4rem;
+    text-align: center;
+}
+
+#services-hero h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+/* Introducción de Servicios */
+#services-intro {
+    padding: 3rem 2rem;
+    text-align: center;
+}
+
+.intro-content {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.intro-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.intro-content p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #666;
+}
+
+/* Servicios Principales */
+#main-services {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.service-detailed {
+    background-color: #fff;
+    margin-bottom: 3rem;
+    padding: 3rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.service-detailed:hover {
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+.service-header {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 2px solid #e0e0e0;
+}
+
+.service-icon {
+    font-size: 4rem;
+    flex-shrink: 0;
+}
+
+.service-title-group h2 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.service-tagline {
+    font-size: 1.2rem;
+    color: #666;
+    font-style: italic;
+    margin-bottom: 0;
+}
+
+.service-description {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #666;
+    margin-bottom: 2rem;
+}
+
+.service-includes,
+.service-ideal-for,
+.service-deliverables,
+.service-benefits {
+    margin-bottom: 2rem;
+}
+
+.service-includes h3,
+.service-ideal-for h3,
+.service-deliverables h3,
+.service-benefits h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.service-includes ul {
+    list-style: none;
+    padding: 0;
+}
+
+.service-includes li {
+    padding: 0.75rem 0;
+    padding-left: 2rem;
+    position: relative;
+    color: #666;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.service-includes li::before {
+    content: '✓';
+    position: absolute;
+    left: 0;
+    color: #1a1a1a;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.service-ideal-for p {
+    font-size: 1.05rem;
+    line-height: 1.8;
+    color: #666;
+    padding: 1.5rem;
+    background-color: #f8f8f8;
+    border-left: 4px solid #1a1a1a;
+    border-radius: 4px;
+}
+
+.deliverables-grid,
+.benefits-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.deliverable-item,
+.benefit-item {
+    padding: 1.5rem;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.deliverable-item strong {
+    display: block;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 0.5rem;
+}
+
+.deliverable-item span,
+.benefit-item .benefit-label {
+    font-size: 0.95rem;
+    color: #666;
+}
+
+.benefit-number {
+    display: block;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 0.5rem;
+}
+
+.benefit-label {
+    display: block;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+/* Proceso de Trabajo */
+#work-process {
+    background-color: #f8f8f8;
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+#work-process h2 {
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+}
+
+.process-steps {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.process-step {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.process-step:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+.step-number {
+    font-family: 'Oswald', sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 1rem;
+}
+
+.process-step h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.process-step p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #666;
+}
+
+/* Pricing */
+#pricing-section {
+    padding: 4rem 2rem;
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#pricing-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.section-subtitle {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 3rem;
+}
+
+.pricing-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.pricing-card {
+    background-color: #fff;
+    padding: 2.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.pricing-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.15);
+}
+
+.pricing-card.featured {
+    border: 3px solid #1a1a1a;
+    transform: scale(1.05);
+}
+
+.featured-badge {
+    position: absolute;
+    top: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 0.5rem 1.5rem;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.pricing-card h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.pricing-amount {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 1rem;
+}
+
+.pricing-description {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 2rem;
+    min-height: 3rem;
+}
+
+.pricing-features {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 2rem;
+    text-align: left;
+}
+
+.pricing-features li {
+    padding: 0.75rem 0;
+    padding-left: 1.5rem;
+    position: relative;
+    color: #666;
+    border-bottom: 1px solid #f0f0f0;
+}
+css.pricing-features li::before {
+    content: '✓';
+    position: absolute;
+    left: 0;
+    color: #1a1a1a;
+    font-weight: 700;
+}
+
+.pricing-btn {
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    background-color: #1a1a1a;
+    color: #fff;
+    border: 2px solid #1a1a1a;
+    border-radius: 4px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.pricing-btn:hover {
+    background-color: #fff;
+    color: #1a1a1a;
+}
+
+/* CTA Servicios */
+#cta-services {
+    padding: 4rem 2rem;
+    text-align: center;
+    background-color: #f8f8f8;
+}
+
+#cta-services h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+#cta-services p {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 2rem;
+}
+
+/* Responsive para Servicios */
+@media screen and (max-width: 768px) {
+    #services-hero h1 {
+        font-size: 2.5rem;
+    }
+    
+    .service-header {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .service-title-group h2 {
+        font-size: 2rem;
+    }
+    
+    .service-detailed {
+        padding: 2rem;
+    }
+    
+    .deliverables-grid,
+    .benefits-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .process-steps {
+        grid-template-columns: 1fr;
+    }
+    
+    .pricing-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .pricing-card.featured {
+        transform: scale(1);
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .service-icon {
+        font-size: 3rem;
+    }
+    
+    .service-includes li {
+        font-size: 0.95rem;
+    }
+}
+/* 
+   ESTILOS PARA PÁGINA CERTIFICACIONES
+*/
+
+/* Hero de Certificaciones */
+#certifications-hero {
+    padding: 6rem 2rem 4rem;
+    text-align: center;
+}
+
+#certifications-hero h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+/* Introducción Certificaciones */
+#certifications-intro {
+    padding: 3rem 2rem;
+    background-color: #fff;
+    text-align: center;
+}
+
+#certifications-intro .intro-content {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+#certifications-intro h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+#certifications-intro p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #666;
+}
+
+/* Certificaciones Principales */
+#main-certifications {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.certification-card {
+    background-color: #fff;
+    margin-bottom: 3rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.certification-card:hover {
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+    transform: translateY(-5px);
+}
+
+.featured-cert {
+    border: 3px solid #1a1a1a;
+}
+
+.cert-badge {
+    background: linear-gradient(135deg, #1a1a1a 0%, #2a2a2a 100%);
+    padding: 2rem;
+    text-align: center;
+}
+
+.cert-icon {
+    font-size: 5rem;
+}
+
+.cert-content {
+    padding: 3rem;
+}
+
+.cert-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.cert-issuer {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+.cert-date {
+    font-size: 1rem;
+    color: #999;
+    margin-bottom: 2rem;
+    font-style: italic;
+}
+
+.cert-description {
+    margin-bottom: 2rem;
+}
+
+.cert-description p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #666;
+}
+
+.cert-details h3,
+.cert-requirements h3,
+.cert-methodologies h3,
+.cert-skills h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+}
+
+.cert-details ul {
+    list-style: none;
+    padding: 0;
+}
+
+.cert-details li {
+    padding: 0.75rem 0;
+    padding-left: 2rem;
+    position: relative;
+    color: #666;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.cert-details li::before {
+    content: '✓';
+    position: absolute;
+    left: 0;
+    color: #1a1a1a;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.requirements-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.requirement-item {
+    padding: 1.5rem;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.requirement-item strong {
+    display: block;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 0.5rem;
+}
+
+.requirement-item span {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.methodologies-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-top: 1rem;
+}
+
+.method-tag {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #1a1a1a;
+    color: #fff;
+    font-size: 0.9rem;
+    border-radius: 20px;
+    font-weight: 600;
+}
+
+.skills-columns {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-top: 1.5rem;
+}
+
+.skill-column {
+    padding: 1.5rem;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+}
+
+.skill-column h4 {
+    font-size: 1.2rem;
+    margin-bottom: 0.75rem;
+}
+
+.skill-column p {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.6;
+}
+
+.cert-credential {
+    margin-top: 2rem;
+    padding-top: 2rem;
+    border-top: 2px solid #e0e0e0;
+}
+
+.cert-credential p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 1rem;
+}
+
+.verify-link {
+    display: inline-block;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #1a1a1a;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.verify-link:hover {
+    color: #666;
+}
+
+/* Certificaciones Adicionales */
+#additional-certifications {
+    background-color: #f8f8f8;
+    padding: 4rem 2rem;
+}
+
+#additional-certifications h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+}
+
+.additional-certs-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.mini-cert-card {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.mini-cert-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+.mini-cert-icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.mini-cert-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.mini-cert-issuer {
+    font-size: 1rem;
+    color: #666;
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+}
+
+.mini-cert-date {
+    font-size: 0.9rem;
+    color: #999;
+    margin-bottom: 1rem;
+}
+
+.mini-cert-description {
+    font-size: 0.95rem;
+    color: #666;
+    line-height: 1.6;
+}
+
+/* Educación Continua */
+#continuous-learning {
+    padding: 4rem 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#continuous-learning h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.learning-content > p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #666;
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto 3rem;
+}
+
+.learning-stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.learning-stat {
+    text-align: center;
+    padding: 2rem;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+}
+
+.learning-stat .stat-number {
+    display: block;
+    font-family: 'Oswald', sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 0.5rem;
+}
+
+.learning-stat .stat-label {
+    font-size: 1rem;
+    color: #666;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.recent-training {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.recent-training h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.recent-training ul {
+    list-style: none;
+    padding: 0;
+}
+
+.recent-training li {
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+    background-color: #f8f8f8;
+    border-left: 4px solid #1a1a1a;
+    border-radius: 4px;
+    color: #666;
+}
+
+#memberships {
+    background-color: #f8f8f8;
+    padding: 4rem 2rem;
+}
+
+#memberships h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+}
+
+.memberships-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.membership-card {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.membership-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+.membership-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.75rem;
+}
+
+.membership-role {
+    font-size: 1rem;
+    color: #1a1a1a;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.membership-card p {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.6;
+}
+
+/* CTA Certificaciones */
+#cta-certifications {
+    padding: 4rem 2rem;
+    text-align: center;
+    background-color: #fff;
+}
+
+#cta-certifications h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+#cta-certifications p {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 2rem;
+}
+
+/* Responsive para Certificaciones */
+@media screen and (max-width: 768px) {
+    #certifications-hero h1 {
+        font-size: 2.5rem;
+    }
+    
+    .cert-content {
+        padding: 2rem;
+    }
+    
+    .cert-content h2 {
+        font-size: 2rem;
+    }
+    
+    .requirements-grid,
+    .skills-columns {
+        grid-template-columns: 1fr;
+    }
+    
+    .additional-certs-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .learning-stats {
+        grid-template-columns: 1fr;
+    }
+    
+    .memberships-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .cert-icon {
+        font-size: 3.5rem;
+    }
+    
+    .mini-cert-icon {
+        font-size: 2.5rem;
+    }
+    
+    .methodologies-tags {
+        flex-direction: column;
+    }
+    
+    .method-tag {
+        width: 100%;
+        text-align: center;
+    }
+}
+/* ========================================
+   ESTILOS PARA PÁGINA HERRAMIENTAS
+   ======================================== */
+
+/* Hero de Herramientas */
+#tools-hero {
+    background: linear-gradient(135deg, #f8f8f8 0%, #ffffff 100%);
+    padding: 6rem 2rem 4rem;
+    text-align: center;
+}
+
+#tools-hero h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+/* Introducción Herramientas */
+#tools-intro {
+    padding: 3rem 2rem;
+    background-color: #fff;
+    text-align: center;
+}
+
+#tools-intro .intro-content {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+#tools-intro h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+#tools-intro p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #666;
+}
+
+/* Categorías de Herramientas */
+#tools-categories {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.tool-category {
+    margin-bottom: 4rem;
+}
+
+.category-header {
+    text-align: center;
+    margin-bottom: 3rem;
+    padding-bottom: 2rem;
+    border-bottom: 3px solid #1a1a1a;
+}
+
+.category-header h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.category-description {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 0;
+}
+
+.tools-grid-detailed {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 2rem;
+}
+
+.tool-card-detailed {
+    background-color: #fff;
+    padding: 2.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.tool-card-detailed:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+.tool-logo {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 1.5rem;
+}
+
+.tool-logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.tool-logo-placeholder {
+    width: 80px;
+    height: 80px;
+    background-color: #1a1a1a;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    border-radius: 8px;
+}
+
+.tool-info h3 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+.tool-vendor {
+    font-size: 1rem;
+    color: #999;
+    margin-bottom: 1rem;
+    font-style: italic;
+}
+
+.tool-description {
+    font-size: 1.05rem;
+    line-height: 1.8;
+    color: #666;
+    margin-bottom: 1.5rem;
+}
+
+.tool-uses {
+    margin-bottom: 1.5rem;
+}
+
+.tool-uses h4 {
+    font-size: 1.2rem;
+    margin-bottom: 0.75rem;
+}
+
+.tool-uses ul {
+    list-style: none;
+    padding: 0;
+}
+
+.tool-uses li {
+    padding: 0.5rem 0;
+    padding-left: 1.5rem;
+    position: relative;
+    color: #666;
+    font-size: 0.95rem;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.tool-uses li::before {
+    content: '•';
+    position: absolute;
+    left: 0;
+    color: #1a1a1a;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 0.5;
+}
+
+.tool-proficiency {
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+    border-top: 2px solid #f0f0f0;
+}
+
+.proficiency-label {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #666;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.proficiency-bar {
+    width: 100%;
+    height: 8px;
+    background-color: #e0e0e0;
+    border-radius: 4px;
+    margin: 0.5rem 0;
+    overflow: hidden;
+}
+
+.proficiency-fill {
+    height: 100%;
+    background: linear-gradient(90deg, #1a1a1a 0%, #333 100%);
+    border-radius: 4px;
+    transition: width 0.5s ease;
+}
+
+.proficiency-level {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #1a1a1a;
+}
+
+/* Tool Philosophy */
+#tool-philosophy {
+    background-color: #f8f8f8;
+    padding: 4rem 2rem;
+}
+
+#tool-philosophy h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+}
+
+.philosophy-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.philosophy-item {
+    background-color: #fff;
+    padding: 2.5rem;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.philosophy-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+.philosophy-icon {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+}
+
+.philosophy-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.philosophy-item p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #666;
+}
+
+/* CTA Herramientas */
+#cta-tools {
+    padding: 4rem 2rem;
+    text-align: center;
+    background-color: #fff;
+}
+
+#cta-tools h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+#cta-tools p {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 2rem;
+}
+
+/* Responsive para Herramientas */
+@media screen and (max-width: 768px) {
+    #tools-hero h1 {
+        font-size: 2.5rem;
+    }
+    
+    .tools-grid-detailed {
+        grid-template-columns: 1fr;
+    }
+    
+    .tool-card-detailed {
+        padding: 2rem;
+    }
+    
+    .tool-info h3 {
+        font-size: 1.75rem;
+    }
+    
+    .philosophy-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .tool-logo,
+    .tool-logo-placeholder {
+        width: 60px;
+        height: 60px;
+    }
+    
+    .tool-logo-placeholder {
+        font-size: 2rem;
+    }
+    
+    .philosophy-icon {
+        font-size: 2.5rem;
+    }
+}
+
+/* ========================================
+   ESTILOS PARA PÁGINA EXPERIENCIA
+   ======================================== */
+
+/* Hero de Experiencia */
+#experience-hero {
+    background: linear-gradient(135deg, #f8f8f8 0%, #ffffff 100%);
+    padding: 6rem 2rem 4rem;
+    text-align: center;
+}
+
+#experience-hero h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+/* Resumen de Experiencia */
+#experience-summary {
+    padding: 4rem 2rem;
+    background-color: #fff;
+    text-align: center;
+}
+
+.summary-content {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.summary-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.summary-content > p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #666;
+    margin-bottom: 3rem;
+}
+
+.summary-stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+}
+
+.summary-stat {
+    padding: 2rem;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+}
+
+.summary-stat .stat-number {
+    display: block;
+    font-family: 'Oswald', sans-serif;
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 0.5rem;
+}
+
+.summary-stat .stat-label {
+    font-size: 1rem;
+    color: #666;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+/* Timeline de Experiencia */
+#experience-timeline {
+    padding: 4rem 2rem;
+    background-color: #f8f8f8;
+}
+
+#experience-timeline h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 4rem;
+}
+
+.timeline-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.timeline-container::before {
+    content: '';
+    position: absolute;
+    left: 200px;
+    top: 0;
+    bottom: 0;
+    width: 3px;
+    background-color: #1a1a1a;
+}
+
+.experience-item {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    gap: 3rem;
+    margin-bottom: 4rem;
+    position: relative;
+}
+
+.experience-item::before {
+    content: '';
+    position: absolute;
+    left: 191px;
+    top: 1.5rem;
+    width: 20px;
+    height: 20px;
+    background-color: #1a1a1a;
+    border-radius: 50%;
+    border: 4px solid #f8f8f8;
+}
+
+.experience-period {
+    text-align: right;
+    padding-right: 2rem;
+}
+
+.period-dates {
+    display: block;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 0.5rem;
+}
+
+.period-duration {
+    display: block;
+    font-size: 1rem;
+    color: #666;
+    font-style: italic;
+}
+
+.experience-content {
+    background-color: #fff;
+    padding: 2.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.experience-header h3 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.company-name {
+    font-size: 1.3rem;
+    color: #1a1a1a;
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+}
+
+.company-location {
+    font-size: 1rem;
+    color: #999;
+    margin-bottom: 1.5rem;
+}
+
+.experience-description p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #666;
+    margin-bottom: 2rem;
+}
+
+.experience-responsibilities,
+.experience-achievements,
+.experience-tech {
+    margin-bottom: 2rem;
+}
+
+.experience-responsibilities h4,
+.experience-achievements h4,
+.experience-tech h4 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.experience-responsibilities ul,
+.experience-achievements ul {
+    list-style: none;
+    padding: 0;
+}
+
+.experience-responsibilities li,
+.experience-achievements li {
+    padding: 0.5rem 0;
+    padding-left: 1.5rem;
+    position: relative;
+    color: #666;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.experience-responsibilities li::before {
+    content: '•';
+    position: absolute;
+    left: 0;
+    color: #1a1a1a;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 0.5;
+}
+
+.experience-achievements li::before {
+    content: '✓';
+    position: absolute;
+    left: 0;
+    color: #1a1a1a;
+    font-weight: 700;
+}
+
+.tech-tags-exp {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.tech-tag-exp {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #f8f8f8;
+    color: #1a1a1a;
+    font-size: 0.85rem;
+    border-radius: 4px;
+    font-weight: 600;
+    border: 1px solid #e0e0e0;
+}
+
+/* Skills Desarrolladas */
+#skills-developed {
+    padding: 4rem 2rem;
+    background-color: #fff;
+}
+
+#skills-developed h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+}
+
+.skills-developed-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.skill-developed {
+    padding: 2rem;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    border-left: 4px solid #1a1a1a;
+}
+
+.skill-developed h3 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+.skill-developed p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #666;
+}
+
+/* Industries */
+#industries {
+    padding: 4rem 2rem;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+#industries h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.section-intro {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 3rem;
+}
+
+.industries-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.industry-item {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.industry-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+.industry-icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.industry-item h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0;
+}
+
+/* CTA Experiencia */
+#cta-experience {
+    padding: 4rem 2rem;
+    text-align: center;
+    background-color: #fff;
+}
+
+#cta-experience h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+#cta-experience p {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 2rem;
+}
+
+/* Responsive para Experiencia */
+@media screen and (max-width: 968px) {
+    .timeline-container::before {
+        left: 150px;
+    }
+    
+    .experience-item {
+        grid-template-columns: 150px 1fr;
+        gap: 2rem;
+    }
+    
+    .experience-item::before {
+        left: 141px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #experience-hero h1 {
+        font-size: 2.5rem;
+    }
+    
+    .summary-stats {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .timeline-container::before {
+        left: 0;
+    }
+    
+    .experience-item {
+        grid-template-columns: 1fr;
+        gap: 0;
+        padding-left: 2rem;
+    }
+    
+    .experience-item::before {
+        left: -9px;
+    }
+    
+    .experience-period {
+        text-align: left;
+        padding-right: 0;
+        margin-bottom: 1rem;
+    }
+    
+    .experience-content {
+        padding: 2rem;
+    }
+    
+    .experience-header h3 {
+        font-size: 1.75rem;
+    }
+    
+    .skills-developed-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .industries-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .summary-stats {
+        grid-template-columns: 1fr;
+    }
+    
+    .experience-item {
+        padding-left: 1.5rem;
+    }
+    
+    .experience-content {
+        padding: 1.5rem;
+    }
+    
+    .tech-tags-exp {
+        flex-direction: column;
+    }
+    
+    .tech-tag-exp {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .industries-grid {
+        grid-template-columns: 1fr;
+    }
+}
+/* ========================================
+   ESTILOS PARA PÁGINA CONTACTO
+   ======================================== */
+
+/* Hero de Contacto */
+#contact-hero {
+    background: linear-gradient(135deg, #f8f8f8 0%, #ffffff 100%);
+    padding: 6rem 2rem 4rem;
+    text-align: center;
+}
+
+#contact-hero h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+/* Introducción Contacto */
+#contact-intro {
+    padding: 3rem 2rem;
+    background-color: #fff;
+    text-align: center;
+}
+
+#contact-intro .intro-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#contact-intro h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+#contact-intro p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #666;
+}
+
+/* Sección Principal de Contacto */
+#contact-main {
+    padding: 4rem 2rem;
+    background-color: #f8f8f8;
+}
+
+.contact-container {
+    display: grid;
+    grid-template-columns: 380px 1fr;
+    gap: 4rem;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+/* Información de Contacto */
+.contact-info-section {
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 3rem;
+    border-radius: 8px;
+    height: fit-content;
+    position: sticky;
+    top: 6rem;
+}
+
+.contact-info-section h2 {
+    color: #fff;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.contact-method {
+    display: flex;
+    gap: 1.5rem;
+    margin-bottom: 2.5rem;
+    padding-bottom: 2.5rem;
+    border-bottom: 1px solid #333;
+}
+
+.contact-method:last-of-type {
+    border-bottom: none;
+    margin-bottom: 2rem;
+}
+
+.contact-method-icon {
+    font-size: 2rem;
+    flex-shrink: 0;
+}
+
+.contact-method-details h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    color: #fff;
+}
+
+.contact-method-details a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.05rem;
+    transition: color 0.3s ease;
+}
+
+.contact-method-details a:hover {
+    color: #ccc;
+}
+
+.contact-method-details p {
+    color: #ccc;
+    font-size: 0.95rem;
+    margin-bottom: 0;
+}
+
+.method-note {
+    font-size: 0.85rem !important;
+    color: #999 !important;
+    margin-top: 0.25rem !important;
+}
+
+/* Disponibilidad */
+.availability-section {
+    background-color: #2a2a2a;
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+}
+
+.availability-section h3 {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    color: #fff;
+}
+
+.availability-badge {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.75rem;
+    background-color: rgba(16, 185, 129, 0.1);
+    border-radius: 6px;
+    margin-bottom: 0.75rem;
+}
+
+.availability-badge.available .availability-dot {
+    width: 10px;
+    height: 10px;
+    background-color: #10b981;
+    border-radius: 50%;
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.5; }
+}
+
+.availability-note {
+    font-size: 0.9rem;
+    color: #999;
+}
+
+/* Tiempo de Respuesta */
+.response-time {
+    background-color: #2a2a2a;
+    padding: 1.5rem;
+    border-radius: 8px;
+}
+
+.response-time h3 {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    color: #fff;
+}
+
+.response-info {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.response-icon {
+    font-size: 2rem;
+}
+
+.response-primary {
+    font-weight: 600;
+    font-size: 1.05rem;
+    margin-bottom: 0.25rem;
+}
+
+.response-secondary {
+    font-size: 0.9rem;
+    color: #999;
+    margin-bottom: 0;
+}
+
+/* Formulario de Contacto */
+.contact-form-section {
+    background-color: #fff;
+    padding: 3rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form-section h2 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.form-intro {
+    font-size: 1.1rem;
+    color: #666;
+    margin-bottom: 2.5rem;
+}
+
+.contact-form-main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+
+.form-field {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-field-full {
+    grid-column: 1 / -1;
+}
+
+.form-field label {
+    font-family: 'Oswald', sans-serif;
+    font-size: 0.95rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 0.5rem;
+    color: #1a1a1a;
+}
+
+.required-mark {
+    color: #e74c3c;
+}
+
+.form-input {
+    padding: 1rem;
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    border: 2px solid #e0e0e0;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+}
+
+.form-input:focus {
+    outline: none;
+    border-color: #1a1a1a;
+    box-shadow: 0 0 0 3px rgba(26, 26, 26, 0.1);
+}
+
+.form-textarea {
+    resize: vertical;
+    min-height: 180px;
+}
+
+.char-count {
+    font-size: 0.85rem;
+    color: #999;
+    margin-top: 0.5rem;
+    text-align: right;
+}
+
+.checkbox-field {
+    display: flex;
+    align-items: start;
+    gap: 0.75rem;
+}
+
+.checkbox-field input[type="checkbox"] {
+    margin-top: 0.25rem;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+.checkbox-field label {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.95rem;
+    font-weight: 400;
+    text-transform: none;
+    letter-spacing: normal;
+    line-height: 1.5;
+    cursor: pointer;
+}
+
+.form-submit-btn {
+    width: 100%;
+    padding: 1.25rem 2rem;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    background-color: #1a1a1a;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    transition: all 0.3s ease;
+}
+
+.form-submit-btn:hover {
+    background-color: #2a2a2a;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.form-submit-btn:active {
+    transform: translateY(0);
+}
+
+.btn-icon {
+    font-size: 1.5rem;
+    transition: transform 0.3s ease;
+}
+
+.form-submit-btn:hover .btn-icon {
+    transform: translateX(5px);
+}
+
+.form-privacy-note {
+    text-align: center;
+    color: #999;
+    margin-top: 1rem;
+}
+
+/* FAQ de Contacto */
+#contact-faq {
+    padding: 4rem 2rem;
+    background-color: #fff;
+}
+
+#contact-faq h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+}
+
+.faq-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.faq-item {
+    padding: 2rem;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    border-left: 4px solid #1a1a1a;
+}
+
+.faq-item h3 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+.faq-item p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #666;
+    margin-bottom: 0;
+}
+
+/* Otras Formas de Conectar */
+#other-ways {
+    padding: 4rem 2rem;
+    background-color: #f8f8f8;
+}
+
+#other-ways h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+}
+
+.other-ways-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.connect-card {
+    background-color: #fff;
+    padding: 2.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    text-decoration: none;
+    color: inherit;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.connect-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+.connect-icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.connect-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.connect-card p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 0;
+}
+
+.connect-arrow {
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+    font-size: 1.5rem;
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+
+.connect-card:hover .connect-arrow {
+    opacity: 1;
+    transform: translateX(5px);
+}
+
+/* Mensaje de Éxito */
+.success-message-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10000;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.success-message-overlay.visible {
+    opacity: 1;
+}
+
+.success-message-content {
+    background-color: #fff;
+    padding: 3rem;
+    border-radius: 12px;
+    text-align: center;
+    max-width: 500px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+}
+
+.success-icon {
+    width: 80px;
+    height: 80px;
+    background-color: #10b981;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    margin: 0 auto 1.5rem;
+}
+
+.success-message-content h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.success-message-content p {
+    font-size: 1.1rem;
+    color: #666;
+    margin-bottom: 2rem;
+}
+
+.success-close-btn {
+    padding: 1rem 2.5rem;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: #1a1a1a;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.success-close-btn:hover {
+    background-color: #2a2a2a;
+}
+
+/* Responsive para Contacto */
+@media screen and (max-width: 1024px) {
+    .contact-container {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+    }
+    
+    .contact-info-section {
+        position: static;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #contact-hero h1 {
+        font-size: 2.5rem;
+    }
+    
+    .contact-form-main {
+        grid-template-columns: 1fr;
+    }
+    
+    .contact-info-section {
+        padding: 2rem;
+    }
+    
+    .contact-form-section {
+        padding: 2rem;
+    }
+    
+    .faq-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .other-ways-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .contact-info-section {
+        padding: 1.5rem;
+    }
+    
+    .contact-method {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    
+    .contact-form-section {
+        padding: 1.5rem;
+    }
+    
+    .form-submit-btn {
+        padding: 1rem 1.5rem;
+    }
+    
+    .success-message-content {
+        padding: 2rem;
+        margin: 1rem;
+    }
+}
